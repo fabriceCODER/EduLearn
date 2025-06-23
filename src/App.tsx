@@ -17,6 +17,12 @@ import InstructorDashboard from "./pages/InstructorDashboard";
 import Discussion from "./pages/Discussion";
 import Certificate from "./pages/Certificate";
 import NotFound from "./pages/NotFound";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
+import HelpCenter from "./pages/HelpCenter";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import CookiePolicy from "./pages/CookiePolicy";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +44,12 @@ const App = () => (
               <Route path="/instructor-dashboard" element={<InstructorDashboard />} />
               <Route path="/discussion/:courseId" element={<Discussion />} />
               <Route path="/certificate/:courseId" element={<Certificate />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/help-center" element={<HelpCenter />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-service" element={<TermsOfService />} />
+              <Route path="/cookie-policy" element={<CookiePolicy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

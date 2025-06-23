@@ -40,8 +40,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/courses" className="hover:text-white transition-colors">Browse Courses</Link></li>
               <li><Link to="/instructor-dashboard" className="hover:text-white transition-colors">Become Instructor</Link></li>
-              <li><Link to="#" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="#" className="hover:text-white transition-colors">Contact</Link></li>
+              <li><Link to="/about-us" className="hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><Link to="#" className="hover:text-white transition-colors">Help Center</Link></li>
-              <li><Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link to="#" className="hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link to="#" className="hover:text-white transition-colors">Cookie Policy</Link></li>
+              <li><Link to="/help-center" className="hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link to="/cookie-policy" className="hover:text-white transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>
