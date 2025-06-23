@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import EduLearnLogo from './EduLearnLogo';
 
 const Footer = () => {
   return (
@@ -8,6 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
+            <div className="mb-4">
+              <EduLearnLogo size={32} />
+            </div>
             <p className="text-slate-400 max-w-md">
               Empowering learners worldwide with high-quality online courses. 
               Learn new skills, advance your career, and achieve your goals.
